@@ -4,6 +4,7 @@ Docker image based on the [openjdk-8 alpine image](https://github.com/docker-lib
 It adds nodejs and gradle.
 
 ## Versions
+- alpine-sdk
 - OpenJDK, 1.8.0_72
 - Node.js, 4.3.0
 - Gradle, 2.12
