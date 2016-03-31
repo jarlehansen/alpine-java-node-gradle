@@ -3,7 +3,7 @@ FROM java:8-jdk-alpine
 ENV PATH ${PATH}:/usr/local/gradle-2.12/bin
 
 # Install bash, nodejs
-RUN apk add --update bash nodejs alpine-sdk && rm -rf /var/cache/apk/*
+RUN apk add --update bash nodejs alpine-sdk nasm && rm -rf /var/cache/apk/*
 
 # Install gradle
 WORKDIR /usr/local
