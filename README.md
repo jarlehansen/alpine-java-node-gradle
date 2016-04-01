@@ -8,3 +8,4 @@ It adds nodejs and gradle.
 - OpenJDK, 1.8.0_72
 - Node.js, 4.3.0
 - Gradle, 2.12
+- Python, 2.7.11
